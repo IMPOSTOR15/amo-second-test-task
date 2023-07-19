@@ -54,23 +54,25 @@
     width: 291px;
     text-align: right;
     margin: 15px 0 40px 0;
+    box-sizing: border-box;
 }
 .rightSectionWhiteHeader {
-    display: inline;
     color: var(--light-text);
     text-align: right;
     font-family: "Inter";
-    background: linear-gradient(90deg,#fcb045 36.99%,#fd1d1d);
-    background-clip: text;
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 .rightSectionGradientHeader {
-    display: inline;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
     -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
     font-family: Inter;
     font-size: 18px;
     font-style: normal;

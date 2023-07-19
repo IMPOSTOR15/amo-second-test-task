@@ -13,7 +13,7 @@ export default function MainSection() {
             <div className={cl.sectionHeader}>
                 <h3 className={cl.rightSectionWhiteHeader}>
                     Вместе c 
-                <p className={cl.rightSectionGradientHeader}> бесплатной консультацией </p>
+                <span className={cl.rightSectionGradientHeader}> бесплатной консультацией </span>
                     мы дарим:
                 </h3>
             </div>
