@@ -1,0 +1,108 @@
+.navbarWrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 46px 150px 0 150px;
+}
+.logoWrapper {
+    margin-top: 11px;
+}
+
+.logoBlock {
+    display: flex;
+    align-items: center;
+}
+
+.logoPart1 {
+    margin-right: 8px;
+}
+.logoPart2 {
+    margin: auto 0;
+}
+.subLogoText {
+    width: 165px;
+    margin: 10px 27px 4px 0;
+    color: var(--light-text);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.navLinks {
+    margin-top: 15px;
+}
+.navLink {
+    text-decoration: none;
+    color: var(--light-text);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 30px;
+}
+.navLink:last-child {
+    margin-right: 0;
+}
+
+.navContacts {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.phoneNumber {
+    display: block;
+    margin: 0;
+    margin-right: 47px;
+    color: var(--light-text);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.constactLink {
+    width: 20px;
+    height: 20px;
+    margin: 0 30px 0 0;
+}
+
+.constactLink:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .navbarWrapper {
+        width: 100%;
+        margin: 0;
+    }
+    .logoWrapper {
+        display: none;
+    }
+    .navContacts {
+        display: none;
+    }
+    .navLinks {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        font-size: 12px;
+        padding: 20px 16px;
+        background-color: var(--black);
+    }
+    .navLink{
+        font-size: 12px;
+        margin-right: 16px;
+    }
+    .navLink:nth-child(4){
+        margin: 0;
+    }
+    .navLink:last-child {
+        display: none;
+    }
+}

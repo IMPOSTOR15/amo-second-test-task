@@ -1,0 +1,109 @@
+.purpleBluredCircle {
+    z-index: -1;
+    position: absolute;
+    left: 602px;
+    top: -154px;
+    width: 259px;
+    height: 259px;
+    flex-shrink: 0;
+    border-radius: 259px;
+    opacity: 0.5;
+    background: #833AB4;
+    filter: blur(196px);
+}
+
+.redBluredCircle {
+    z-index: -1;
+    position: absolute;
+    left: -102px;
+    top: 251px;
+    width: 311px;
+    height: 311px;
+    flex-shrink: 0;
+    border-radius: 311px;
+    opacity: 0.5;
+    background: #961A1A;
+    filter: blur(196px);
+}
+.yellowBluredCircle {
+    display: none;
+    z-index: -1;
+    position: absolute;
+    left: -68px;
+    top: 574px;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    fill: #FCB045;
+    opacity: 0.4000000059604645;
+    filter: blur(196px);
+}
+.purpleBall {
+    z-index: -1;
+    position: absolute;
+    left: 808px;
+    top: -2px;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    fill: radial-gradient(82.30% 82.30% at 27.25% 26.50%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.21) 78.59%, rgba(86, 24, 128, 0.23) 100%);
+    filter: drop-shadow(3px 6px 27px rgba(177, 118, 217, 0.25)) blur(5px);
+    backdrop-filter: blur(2px);
+}
+
+.bigRedBall {
+    z-index: -5;
+    position: absolute;
+    left: 519px;
+    top: 83px;
+    width: 83px;
+    height: 83px;
+    flex-shrink: 0;
+    fill: radial-gradient(82.30% 82.30% at 27.25% 26.50%, rgba(255, 208, 208, 0.54) 0%, rgba(212, 93, 93, 0.26) 59.67%, rgba(167, 49, 49, 0.25) 78.59%, rgba(130, 25, 25, 0.25) 100%);
+    filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25));
+    backdrop-filter: blur(2px);
+}
+
+.smallRedBall {
+    z-index: -1;
+    position: absolute;
+    left: 851px;
+    top: 547px;
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    fill: radial-gradient(82.30% 82.30% at 27.25% 26.50%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.25) 59.67%, rgba(167, 49, 49, 0.26) 78.59%, rgba(130, 25, 25, 0.23) 100%);
+    filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25)) blur(2.5px);
+    backdrop-filter: blur(2px);
+}
+
+@media screen and (max-width: 768px) {
+    .purpleBluredCircle {
+        left: 162px;
+        top: 258px;
+    }
+    .redBluredCircle {
+        left: -55px;
+        top:  298px;
+        /* backdrop-filter: blur(2px); */
+    }
+    .yellowBluredCircle {
+        display: block;
+    }
+    .purpleBall {
+        top: 291px;
+        left: 296px;
+        width: 40px;
+        height: 40px;
+    }
+    .bigRedBall {
+        filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25));
+        filter: blur(2px);
+        left: 29px;
+        top: 457px;
+    }
+    .smallRedBall {
+        top: 618px;
+        left: 278px;
+    }
+}

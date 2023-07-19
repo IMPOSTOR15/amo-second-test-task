@@ -1,0 +1,153 @@
+.footerWrapper {
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    margin: 69px 150px 0 150px;
+    flex: 0 0 auto;
+}
+.footerContetn {
+    display: flex;
+    flex-direction: row;
+}
+.footerColumn {
+    margin-right: 100px;
+}
+.footerColumnHeader {
+    margin: 0 0 10px 0;
+    color: var(--dark-gray);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+.middelLinksWrapper {
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 50px; */
+}
+.footerLinks {
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 48px; */
+}
+.footerLinks:nth-child(1) {
+    margin-right: 38px;
+}
+.footerLink {
+    white-space: nowrap;
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--light-text, #E4E5EA);
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footerContactColumn {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.number {
+    color: var(--light-text, #E4E5EA);
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.constactsLinksWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.contactIco {
+    display: block;
+    margin: 0 10px 0 0;
+}
+
+.contactIco:last-child {
+    margin-right: 0;
+}
+
+.adress {
+    color: var(--light-text, #E4E5EA);
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footerCopyRigth {
+    margin: 33px 0 5px 0;
+    color: var(--light-text, #E4E5EA);
+    text-align: right;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cofidentialLink {
+    margin: 0 0 20px 0;
+    color: var(--light-text, #E4E5EA);
+    text-align: right;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .footerWrapper {
+        background-color: var(--black);
+        margin: 0;
+        padding: 25px 16px 60px 15px;
+    }
+    .footerContetn {
+        flex-direction: column;
+    }
+    .footerColumn {
+        margin: 0;
+    }
+    .footerColumnHeader {
+        margin: 20px 0 20px 0;
+    }
+    .footerContactColumn {
+        margin: 0;
+        text-align: left;
+    }
+    .middelLinksWrapper {
+        justify-content: space-between;
+    }
+    .footerLink {
+        white-space:normal;
+        margin: 0 0 10px 0;
+        font-size: 14px;
+    }
+    .constactsLinksWrapper {
+        justify-content: flex-start;
+    }
+    .contactIco img {
+        width: 24px;
+        height: 24px;
+    }
+    .footerCopyRigth {
+        text-align: left;
+    }
+    .cofidentialLink {
+        text-align: left;
+        margin-bottom: 0;
+    }
+}
